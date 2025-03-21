@@ -1,0 +1,31 @@
+.navlist {
+  padding: 0;
+}
+
+.navitem {
+  width: 130px;
+  padding: 0;
+}
+
+.navitem a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #d2f2f1;
+  margin: 10px;
+  padding: 5px 20px;
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid #d2f2f1;
+  transition: 0.25s ease-in-out;
+}
+
+.navitem a:hover {
+  background: #d2f2f1;
+  color: black;
+}
+
+.navlink-text span {
+  font-weight: bold;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}

@@ -1,0 +1,53 @@
+.contact-section {
+  overflow: hidden;
+  background-color: #17252a;
+  padding: 20px 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.contact-icon {
+  font-size: 3rem;
+  color: #def2f1;
+}
+
+.section-title h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #def2f1;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  background-color: #def2f1;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  transition: 0.5s ease;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.social:hover {
+  transform: scale(1.15);
+}
+
+.linkedin,
+.github {
+  color: black;
+  font-size: 2rem;
+}

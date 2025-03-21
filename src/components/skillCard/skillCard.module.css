@@ -1,0 +1,26 @@
+.skill {
+  height: 100px;
+  background-color: #343a40;
+  margin: 8px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 4px black;
+  transition: 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.skill:hover {
+  transform: scale(1.06);
+}
+
+.skill img {
+  width: 150px;
+}
+
+@media screen and (max-width: 800px) {
+  .skill {
+    width: 200px;
+  }
+}

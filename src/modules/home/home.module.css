@@ -1,0 +1,32 @@
+.hero-section {
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 5rem;
+  color: #def2f1;
+  font-weight: 600;
+}
+
+.hero-subtitle {
+  text-align: center;
+  font-size: 3rem;
+  color: #def2f1;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hero-subtitle {
+    margin-left: 0;
+    font-size: 1.5rem;
+  }
+}

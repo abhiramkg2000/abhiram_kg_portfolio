@@ -1,0 +1,30 @@
+.skills-section {
+  overflow: hidden;
+  background-color: #17252a;
+  min-height: 100vh;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.skill-icon {
+  font-size: 3rem;
+  color: #def2f1;
+}
+
+.section-title h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #def2f1;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.skill-column {
+  display: flex;
+  justify-content: center;
+}

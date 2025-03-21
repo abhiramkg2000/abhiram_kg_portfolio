@@ -1,0 +1,7 @@
+#tsparticles {
+  position: absolute; /* Position canvas absolutely within the container */
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
