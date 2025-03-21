@@ -12,7 +12,7 @@
 }
 
 .about-icon {
-  font-size: 3rem;
+  font-size: 3rem !important;
   color: #def2f1;
 }
 

@@ -12,7 +12,7 @@
 }
 
 .contact-icon {
-  font-size: 3rem;
+  font-size: 3rem !important;
   color: #def2f1;
 }
 
@@ -49,5 +49,5 @@
 .linkedin,
 .github {
   color: black;
-  font-size: 2rem;
+  font-size: 2rem !important;
 }

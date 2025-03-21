@@ -1,10 +1,10 @@
 .navlist {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .navitem {
-  width: 130px;
-  padding: 0;
+  width: 130px !important;
+  padding: 0 !important;
 }
 
 .navitem a {

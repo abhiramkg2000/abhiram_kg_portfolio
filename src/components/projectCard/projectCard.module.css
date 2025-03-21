@@ -2,12 +2,12 @@
   position: relative;
   width: 400px;
   height: 500px;
-  background-color: #343a40;
-  color: #def2f1;
+  background-color: #343a40 !important;
+  color: #def2f1 !important;
   margin: 20px 10px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 4px black;
-  transition: 0.3s ease;
+  border-radius: 20px !important;
+  box-shadow: 5px 5px 4px black !important;
+  transition: 0.3s ease !important;
 }
 
 /* .project-card:hover {
@@ -55,5 +55,5 @@
 .github,
 .production {
   color: black;
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
