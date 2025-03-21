@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles in your component
 
@@ -36,8 +37,11 @@ export default function AboutPage() {
               data-aos="fade-up"
               data-aos-offset="0"
             >
-              <img
+              <Image
                 src={webDevelopmentImage.src}
+                width={800}
+                height={600}
+                alt="Web Development"
                 className={styles["about-me-image"]}
               />
             </div>
