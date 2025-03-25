@@ -55,4 +55,5 @@
 .email {
   color: black;
   font-size: 2rem !important;
+  width: 100%;
 }
