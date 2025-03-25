@@ -8,6 +8,7 @@ import "aos/dist/aos.css"; // Import AOS styles in your component
 import ContactsIcon from "@mui/icons-material/Contacts";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
 import styles from "./contact.module.css";
 
@@ -26,7 +27,7 @@ export default function ContactPage() {
           data-aos="fade-left"
           data-aos-offset="0"
         >
-          <ContactsIcon className={styles["contact-icon"]} />
+          <ContactsIcon className={styles["section-title-icon"]} />
           <h1>Contact Me</h1>
         </div>
         <div
@@ -42,6 +43,11 @@ export default function ContactPage() {
           <div className={styles["social"]}>
             <Link href="https://github.com/abhiramkg2000">
               <GitHubIcon className={styles["github"]} />
+            </Link>
+          </div>
+          <div className={styles["social"]}>
+            <Link href="mailto:abhikgram2000@gmail.com">
+              <EmailIcon className={styles["email"]} />
             </Link>
           </div>
         </div>

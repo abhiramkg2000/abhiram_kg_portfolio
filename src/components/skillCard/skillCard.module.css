@@ -1,4 +1,4 @@
-.skill {
+.skill-card {
   height: 100px;
   background-color: #343a40;
   margin: 8px;
@@ -11,16 +11,16 @@
   width: 300px;
 }
 
-.skill:hover {
+/* .skill-card:hover {
   transform: scale(1.06);
-}
+} */
 
-.skill img {
+.skill-card img {
   width: 150px;
 }
 
 @media screen and (max-width: 800px) {
-  .skill {
+  .skill-card {
     width: 200px;
   }
 }

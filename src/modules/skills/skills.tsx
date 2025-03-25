@@ -27,7 +27,7 @@ export default function SkillsPage() {
         data-aos="fade-left"
         data-aos-offset="0"
       >
-        <CodeIcon className={styles["skill-icon"]} />
+        <CodeIcon className={styles["section-title-icon"]} />
         <h1>Technical Skills</h1>
       </div>
       <Grid

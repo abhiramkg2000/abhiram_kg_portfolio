@@ -41,10 +41,10 @@ export default function ParticlesComponent() {
                   enable: true,
                   mode: "push",
                 },
-                onHover: {
-                  enable: true,
-                  mode: "grab",
-                },
+                // onHover: {
+                //   enable: true,
+                //   mode: "grab",
+                // },
                 // resize: {
                 //   enable: true,
                 // },
@@ -82,12 +82,11 @@ export default function ParticlesComponent() {
               },
               number: {
                 density: {
-                  // enable: true,
-                  // area: 800,
+                  enable: true,
                 },
                 value: 100,
                 limit: {
-                  value: 100,
+                  value: 150,
                 },
               },
               opacity: {

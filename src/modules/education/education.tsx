@@ -22,7 +22,7 @@ export default function EducationPage() {
         data-aos="fade-left"
         data-aos-offset="0"
       >
-        <SchoolIcon className={styles["education-icon"]} />
+        <SchoolIcon className={styles["section-title-icon"]} />
         <h1>Education</h1>
       </div>
       <div

@@ -21,6 +21,41 @@
   margin-left: 100px;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.social {
+  background-color: #def2f1;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: 0.5s ease;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.social:hover {
+  transform: scale(1.15);
+}
+
+.social a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin,
+.github {
+  color: black;
+  font-size: 2rem !important;
+}
+
 @media screen and (max-width: 600px) {
   .hero-title {
     font-size: 3rem;

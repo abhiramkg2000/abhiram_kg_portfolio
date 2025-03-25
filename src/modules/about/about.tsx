@@ -26,7 +26,7 @@ export default function AboutPage() {
           data-aos="fade-left"
           data-aos-offset="0"
         >
-          <PersonIcon className={styles["about-icon"]} />
+          <PersonIcon className={styles["section-title-icon"]} />
           <h1>About Me</h1>
         </div>
         <Grid container spacing={2} margin={2}>

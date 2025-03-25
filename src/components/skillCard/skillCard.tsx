@@ -7,7 +7,7 @@ type SkillCardPropsType = {
 
 export default function SkillCard({ image, alt }: SkillCardPropsType) {
   return (
-    <div className={styles["skill"]}>
+    <div className={styles["skill-card"]}>
       <img src={image} alt={alt} />
     </div>
   );
