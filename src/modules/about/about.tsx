@@ -50,7 +50,7 @@ export default function AboutPage() {
               data-aos-offset="0"
             >
               <p className={styles["about-me"]}>
-                I am a computer science graduate, I always look for
+                {/* I am a computer science graduate, I always look for
                 opportunities to grow and expand my knowledge. When I feel that
                 I lack in certain areas I would work on it and improve those
                 areas. Always on a mission to become a Better version of myself
@@ -69,7 +69,17 @@ export default function AboutPage() {
                 have worked on multiple carousels and banners using React Slick,
                 customized Vite build configurations, and sanitized and parsed
                 HTML content. Additionally, I have handled various bug fixes and
-                UI changes to enhance the overall application.
+                UI changes to enhance the overall application. */}
+                Frontend Developer with 3 years of experience building fast,
+                responsive web applications using React and TypeScript.
+                <br />
+                <br />
+                Skilled in creating clean, user-focused interfaces, optimizing
+                performance, and writing maintainable, scalable code.
+                <br />
+                <br />
+                Strong collaborator with a passion for learning,
+                problem-solving, and delivering polished UIs.
               </p>
             </div>
           </Grid>

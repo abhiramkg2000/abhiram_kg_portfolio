@@ -2,59 +2,68 @@ export const NAVBAR_LINKS = ["Home", "About", "Projects", "Contact"];
 
 export const PROJECTS = [
   {
-    title: "Cryptocurrency App",
+    title: "Chat App",
     description:
-      "Using Coingecko API created a React App for viewing information of Cryptocurrencies, it includes search feature, pagination, and an interactive chart to view the information.",
-    github: "https://github.com/abhiramkg2000/Cryptocoins_App",
-    production: "https://lambent-crumble-f8595a.netlify.app/",
+      "Realtime chat app built using NextJS, NestJS, Socket.io and MongoDB Atlas. The app's server is deployed on Render cloud, and render takes down the app after 15 mins of uptime, due to which the app might not work at the moment. Please contact me to view the app.",
+    github: "https://github.com/abhiramkg2000/chat-app-frontend",
+    production: "https://use-chat-app.netlify.app/",
     icon: "fab fa-github fa-2x",
     fadeDirection: "fade-right",
+  },
+  {
+    title: "Cryptocurrency App",
+    description:
+      "Using 'CoinGecko' API, created an app for viewing the details of Cryptocurrencies. It includes search feature, pagination, watchlist and an interactive chart to view the price information.",
+    github: "https://github.com/abhiramkg2000/Cryptocoins_App",
+    production: "https://digital-crypto-currency.netlify.app/",
+    icon: "fab fa-github fa-2x",
+    fadeDirection: "fade-up",
   },
   {
     title: "Bubble Sort Visualizer",
     description:
-      "Using JavaScript created a bubble sort visualizer in which the user can enter an array and it shows the sorting taking place.",
+      "JavaScript app for visualizing the bubble sort algorithm, in which the user can enter an array of numbers and it shows the sorting taking place.",
     github: "https://github.com/abhiramkg2000/visualizer",
     production: "https://abhiramkg2000.github.io/visualizer/",
     icon: "fab fa-github fa-2x",
-    fadeDirection: "fade-up",
+    fadeDirection: "fade-left",
   },
   {
     title: "Path Finder App",
     description:
-      "Created a Path Finder App in React, users can click the source and destination box and find the shortest path between the boxes.",
+      "Path Finder app, in which the user can select the source and destination box, and it finds the shortest path between the boxes.",
     github: "https://github.com/abhiramkg2000/path_finder",
     production: "https://pathfinderapp.netlify.app/",
-    icon: "fab fa-github fa-2x",
-    fadeDirection: "fade-left",
-  },
-  {
-    title: "Home Decor",
-    description:
-      "Created a Landing page themed 'Home decor' which showcases different interior works of the company and their services.",
-    github: "https://github.com/abhiramkg2000/homedecor",
-    production: "https://abhiramkg2000.github.io/homedecor/",
     icon: "fab fa-github fa-2x",
     fadeDirection: "fade-right",
   },
   {
-    title: "Hover Box App",
+    title: "Home Decor",
     description:
-      "Created a 'Hover over the Box' App in React, users can hover over a box and find all the diagonal paths from this box in the grid.",
-    github: "https://github.com/abhiramkg2000/hover_chessboard",
-    production: "https://hover-chessboard.netlify.app/",
+      "Landing page themed 'Home decor' which showcases the different interior works of the company and their services.",
+    github: "https://github.com/abhiramkg2000/homedecor",
+    production: "https://abhiramkg2000.github.io/homedecor/",
     icon: "fab fa-github fa-2x",
     fadeDirection: "fade-up",
   },
-  {
-    title: "Cloud Animation",
-    description:
-      "Using CSS keyframes, created a cloud animation, and also added dark mode with JavaScript.",
-    github: "https://github.com/abhiramkg2000/Creativity1",
-    production: "https://abhiramkg2000.github.io/Creativity1/",
-    icon: "fab fa-github fa-2x",
-    fadeDirection: "fade-left",
-  },
+  // {
+  //   title: "Hover Box App",
+  //   description:
+  //     "Created a 'Hover over the Box' App in React, users can hover over a box and find all the diagonal paths from this box in the grid.",
+  //   github: "https://github.com/abhiramkg2000/hover_chessboard",
+  //   production: "https://hover-chessboard.netlify.app/",
+  //   icon: "fab fa-github fa-2x",
+  //   fadeDirection: "fade-up",
+  // },
+  // {
+  //   title: "Cloud Animation",
+  //   description:
+  //     "Using CSS keyframes, created a cloud animation, and also added dark mode with JavaScript.",
+  //   github: "https://github.com/abhiramkg2000/Creativity1",
+  //   production: "https://abhiramkg2000.github.io/Creativity1/",
+  //   icon: "fab fa-github fa-2x",
+  //   fadeDirection: "fade-left",
+  // },
 ];
 
 export const SKILLS = [

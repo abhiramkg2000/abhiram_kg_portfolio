@@ -51,7 +51,7 @@ export default function EducationPage() {
               </h2>
               <br />
               <p className={styles["education-description"]}>
-                Computer Science Engineering(2018-2022)
+                B.Tech in Computer Science(2018-2022)
               </p>
             </div>
           </div>
