@@ -27,3 +27,13 @@
   font-weight: 600;
   margin: 0 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .section-title-icon {
+    font-size: 2.5rem !important;
+  }
+  
+  .section-title h1 {
+    font-size: 2rem;
+  }
+}

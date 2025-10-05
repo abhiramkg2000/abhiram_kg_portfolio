@@ -42,3 +42,17 @@
   font-weight: bold;
   color: #def2f1;
 }
+
+@media screen and (max-width: 600px) {
+  .section-title-icon {
+    font-size: 2.5rem !important;
+  }
+
+  .section-title h1 {
+    font-size: 2rem;
+  }
+
+  .about-me {
+    font-size: 0.875rem;
+  }
+}

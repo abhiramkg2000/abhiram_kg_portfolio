@@ -57,3 +57,24 @@
   font-size: 2rem !important;
   width: 100% !important;
 }
+
+@media screen and (max-width: 600px) {
+  .section-title-icon {
+    font-size: 2.5rem !important;
+  }
+
+  .section-title h1 {
+    font-size: 2rem;
+  }
+
+  .social {
+    width: 40px;
+    height: 40px;
+  }
+
+  .linkedin,
+  .github,
+  .email {
+    font-size: 1.5rem !important;
+  }
+}
