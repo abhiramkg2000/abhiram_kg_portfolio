@@ -4,7 +4,7 @@ export const PROJECTS = [
   {
     title: "Chat App",
     description:
-      "Realtime chat app built using NextJS, NestJS, Socket.io and MongoDB Atlas. The app's server is deployed on Render cloud, and render takes down the app after 15 mins of uptime, due to which the app might not work at the moment. Please contact me to view the app.",
+      "Realtime chat app built using NextJS, NestJS, Socket.io, Redis and MongoDB Atlas. The App's frontend is deployed in Netlify cloud and the backend server is deployed in Render cloud.",
     github: "https://github.com/abhiramkg2000/chat-app-frontend",
     production: "https://use-chat-app.netlify.app/",
     icon: "fab fa-github fa-2x",
@@ -13,7 +13,7 @@ export const PROJECTS = [
   {
     title: "Cryptocurrency App",
     description:
-      "Using 'CoinGecko' API, created an app for viewing the details of Cryptocurrencies. It includes search feature, pagination, watchlist and an interactive chart to view the price information.",
+      "Using 'CoinGecko' API, created an app for viewing the details of Cryptocurrencies. It includes search, sort, pagination, watchlist and an interactive chart to view the price information.",
     github: "https://github.com/abhiramkg2000/Cryptocoins_App",
     production: "https://digital-crypto-currency.netlify.app/",
     icon: "fab fa-github fa-2x",
@@ -31,7 +31,7 @@ export const PROJECTS = [
   {
     title: "Path Finder App",
     description:
-      "Path Finder app, in which the user can select the source and destination box, and it finds the shortest path between the boxes.",
+      "Path Finder app, in which the user can select the source and destination boxes, and it finds the shortest path between the boxes.",
     github: "https://github.com/abhiramkg2000/path_finder",
     production: "https://pathfinderapp.netlify.app/",
     icon: "fab fa-github fa-2x",
